@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Статьи</title>
+    <link rel="stylesheet" href="{% static "css/article.css" %}">
+</head>
+<body>
+<div class="header">
+    <img src="{% static "img/dpb-logo-1.png" %}" alt="logo" width="600" height="200">
+</div>
+<div class="archive">
+    <div class="one-post"><h2 class="post-title">{{ post.title }}</h2>
+        <div class="article-info">
+            <div class="article-author">{{ post.author.username }}</div>
+            <div class="article-created-date">{{ post.created_date }}</div>
+        </div>
+        <p class="article-text">{{ post.text }}</p></div>
+</div>
+</body>
+</html>

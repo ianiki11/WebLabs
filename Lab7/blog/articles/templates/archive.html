@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Статьи</title>
+    <link rel="stylesheet" href="{% static "css/article.css" %}">
+    <script type="text/javascript" src="{% static "js/fold-post.js" %}"></script>
+</head>
+<a href="{% url 'register-page' %}">регистрация</a>
+<a href="{% url 'login-page' %}">войти</a>
+<div class="header">
+    <img src="{% static "img/dpb-logo.png" %}" alt="logo" width="400" height="200">
+</div>
+<div class="archive">
+    {% for post in posts %}
+        <div class="one-post">
+            <div>
+                <h2 class="post-title">
+                    <a href="article/{{ post.id }}">{{ post.title }}</a>
+                    <button id="show-button" onclick="showArticleInfo({{post.id}})">Развернуть</button>
+                </h2>
+            </div>
+            <div id="article-info-{{ post.id }}" style="display: none">
+                <div class="article-info">
+                    <div class="article-author">{{ post.author.username }}</div>
+                    <div class="article-created-date">{{ post.created_date }}</div>
+                </div>
+                <p class="article-text">{{ post.get_excerpt }}</p></div>
+        </div>
+    {% endfor %}
+</div>
+<body>
+
+</body>
+</html>

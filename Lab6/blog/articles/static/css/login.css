@@ -1,0 +1,87 @@
+h1 {
+    margin-left: auto;	
+    margin-right: auto;	
+	display: block;
+	text-align: center;
+	font-family: "Gill Sans", serif;
+	
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	display: block;
+	font-family: "Gill Sans", serif;
+
+}
+input[type=password] {
+    width: 400px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	display: block;
+	font-family: "Gill Sans", serif;
+}
+input[type=submit] {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+	display: block;
+	font-family: "Gill Sans", serif;
+}
+
+textarea {
+    width: 800px;
+    height: 150px;
+    padding: 12px 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #abfff;
+    font-size: 16px;
+    resize: none;
+	font-family: "Gill Sans", serif;
+}
+
+.header img {
+	top: 182px;
+	height: 180px;
+	position: center;
+	margin: 250;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: #94998b;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}

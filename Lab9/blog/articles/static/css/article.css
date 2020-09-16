@@ -1,0 +1,60 @@
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-title a {
+    color: #ffffff;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+}
+
+.header img {
+    display: block;
+    width: 550px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+
+.parallax-slide {
+    height: 80vh;
+}
+.content-slide {
+    height: 100vh;
+    background: #fff;
+    text-align: center;
+}
+h1 {
+    padding-top: 10%;
+}
+#parallax1 {
+    background: url('https://images.pexels.com/photos/1787035/pexels-photo-1787035.jpeg') no-repeat center;
+    background-attachment: fixed;
+}

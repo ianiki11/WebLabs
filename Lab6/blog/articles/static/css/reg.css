@@ -1,0 +1,87 @@
+.register h1 {
+	color: #000000;
+	font-family: Tahoma, Arial, sans-serif;
+	display: block;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-title a {
+    color: #4F4F4F;
+}
+
+.article-created-date {
+    text-align: right;
+}
+
+.article-author {
+    width: 50%;
+    float: auto;
+}
+
+.header img {
+    display: block;
+    width: 280px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+body {
+    background: #FCFFE6;
+	font-family: "Gill Sans", serif;
+    color: #4F4F4F;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+input[type=text] {
+    width: 400px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	display: block;
+	font-family: "Gill Sans", serif;
+}
+
+input[type=password] {
+    width: 400px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+	display: block;
+	font-family: "Gill Sans", serif;
+}
+input[type=submit] {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+	display: block;
+	font-family: "Gill Sans", serif;
+}
